@@ -2,7 +2,6 @@
 # PROJECT : Simple Quote Printer Machine
 # AUTHOR  : Rawfu Siam
 # DATE    : May 13, 2026
-# TOPICS  : print(), sep=, end=, import, random
 # ============================================
 
 import random
