@@ -1,0 +1,3 @@
+Company Node 1: Scale_AI
+Company Node 2: OpenAI_Remote
+Company Node 3: Tokyo_Tech_Labs

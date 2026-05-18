@@ -1,0 +1,3 @@
+spammer_node
+bot_agent_99
+bad_data_packet
