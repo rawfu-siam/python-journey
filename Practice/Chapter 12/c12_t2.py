@@ -1,0 +1,1 @@
+# created a requirements.txt using pip freeze

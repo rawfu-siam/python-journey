@@ -1,0 +1,1 @@
+# learned the basics of git and github though I knew these earlier
