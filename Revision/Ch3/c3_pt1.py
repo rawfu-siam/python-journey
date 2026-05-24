@@ -1,5 +1,5 @@
 '''
-Chapter2, topic - operators
+Chapter3, topic - operators
 '''
 '''
 Task 1 (Medium): Create a new script file named c3_pt1.py 
