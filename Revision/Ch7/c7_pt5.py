@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - star pattern
+Chapter7, topic - star pattern
 '''
 '''
 Task 1 (Medium): The Corporate Banner Blueprint 📊Write an engine that 

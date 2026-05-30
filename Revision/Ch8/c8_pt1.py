@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - function
+Chapter8, topic - function
 '''
 '''
 Task 1 (Medium): The Lead Greeting Engine Define a function called 

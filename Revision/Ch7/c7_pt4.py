@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - nested loop 
+Chapter7, topic - nested loop 
 '''
 '''
 Task 1 (Medium): Dual-Store Inventory Synchronizer 🏬Create two lists: 

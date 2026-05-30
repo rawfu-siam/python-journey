@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - loop - for/range/while
+Chapter7, topic - loop - for/range/while
 '''
 '''
 Task 1 (Medium): The Instagram Follower Count Loop 📈Create a list called 

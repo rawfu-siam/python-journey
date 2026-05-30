@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - for loop with if and else
+Chapter7, topic - for loop with if and else
 '''
 '''
 Task 1 (Medium): Food Allergy Scanner 🛑Create a list called 

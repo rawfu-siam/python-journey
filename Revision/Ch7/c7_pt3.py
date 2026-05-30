@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - break / continue / pass
+Chapter7, topic - break / continue / pass
 '''
 '''
 Task 1 (Medium): The Shopping Cart Item Skipper 🛒Create a list 
