@@ -1,0 +1,2 @@
+api_host=https://openai.com
+max_tokens=2000

@@ -1,0 +1,3 @@
+Server_Cloud,450,Paid
+OpenAI_API,1200,Paid
+Database_Node,150,Pending
