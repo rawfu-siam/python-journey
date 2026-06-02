@@ -1,5 +1,5 @@
 '''
-Chapter10, topic - oop
+Chapter11, topic - oop
 '''
 '''
 Task 1 (Easy): Create a class named Laptop. Give it two attributes: 
