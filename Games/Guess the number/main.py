@@ -16,6 +16,8 @@ while guess == False:
             print("Zeros are not accepted! Select a number from 1 to 100: ")
         elif user_pick < 0:
             print("Negative numbers are not accepted! Select a number from 1 to 100: ")
+        elif user_pick > 100:
+            print("Sorry! Values higher than 100 is not accepted!")
         
         elif user_pick > 0:
             if user_pick > number :
@@ -24,7 +26,7 @@ while guess == False:
                 print("Choose a number bigger than the current one.")
             elif user_pick == number:
                 guess = True
-                print(f"You have successfully guess the number by {total_guess} attempts which is {[number]}!")
+                print(f"You have successfully guess the number by {total_guess} attempts which is {number}!")
             total_guess += 1
     except ValueError:
         print("Please enter a valid number!")
