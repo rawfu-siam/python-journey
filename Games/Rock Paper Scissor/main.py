@@ -4,7 +4,7 @@ import random as r
 game_on = True
 user_points = 0
 com_points = 0
-while game_on == True:
+while game_on:
     if user_points == 3:
         print("Congrats! You have won the match!")
         break
@@ -12,9 +12,9 @@ while game_on == True:
         print("Sorry! Computer have won the match! Try next time!")
         break
     com_pick = r.choice(["r", "p", "s"])
-    user_pick = (input("Pick r/p/s for Rock or Paper or Scissor: "))
-    print(f"Computer have picked {com_pick}")
+    user_pick = (input("Pick r/p/s for Rock or Paper or Scissor: ")).lower()
     if user_pick == "r" or user_pick == "p" or user_pick == "s":
+        print(f"Computer have picked {com_pick}")
         if com_pick == user_pick:
             print(f"Its a draw! both picked {user_pick}")
         elif com_pick == "p" and user_pick == "s":
