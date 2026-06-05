@@ -1,5 +1,5 @@
 '''
-Chapter11, topic - pip freeze command
+Chapter12, topic - pip freeze command
 '''
 '''
 ask 1: Building Your First Recipe Asset (Easy)Activate your project 

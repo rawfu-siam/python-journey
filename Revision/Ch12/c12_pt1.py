@@ -1,5 +1,5 @@
 '''
-Chapter11, topic - virtual env and installation
+Chapter12, topic - virtual env and installation
 '''
 '''
 Task 1: Building an Isolated Automation Room (Easy)Open your workspace 
