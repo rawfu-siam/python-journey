@@ -24,8 +24,7 @@ Task 3 (Bit Harder) — The Automated GatekeeperGoal: Write a lambda
 function that checks if an incoming lead's budget is enough for your 
 agency. The function should take an integer input. If the input is 
 1500 or higher, return the string "Approved". If it is less than 1500, 
-return "Rejected".Hint: Use the inline if-else pattern we looked at 
-in Example 4!
+return "Rejected".Hint: Use the inline if-else pattern !
 '''
 lead_budget = lambda price : "Approved" if price>=1500 else "Rejected"
 print(lead_budget(2000))
