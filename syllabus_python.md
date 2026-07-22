@@ -126,10 +126,101 @@
 - [ ] `async` / `await` basics
 - [ ] `threading` basics
 
+
+## ⚙️ PART 2.5 — The Enterprise Guardrails (The 8 Extras)
+
+---
+
+### 🛡️ Chapter 1 — Project Management & Sprint Operations (Extra 1)
+
+- [ ]  Linear / Notion workspace setup for engineering Sprints
+- [ ]  Writing explicit engineering issues with functional specs
+- [ ]  Issue status tags — Backlog, Todo, In Progress, Review, Done
+- [ ]  Git branch naming conventions linked to Issue IDs (e.g., feature/issue-102)
+- [ ]  Smart commits — closing issues automatically via Git commit messages
+
+---
+
+### 🛡️ Chapter 2 — Production-Grade Structured Logging (Extra 2)
+
+- [ ]  Python native logging module configuration
+- [ ]  Log levels — DEBUG, INFO, WARNING, ERROR, CRITICAL
+- [ ]  Log formatters — timestamps, log levels, file names, line numbers
+- [ ]  Stream handlers (console output) vs File handlers (persistent storage)
+- [ ]  RotatingFileHandler — setting maxBytes and backupCount to prevent memory overflow
+- [ ]  Creating a reusable logger.py utility module
+
+---
+
+### 🛡️ Chapter 3 — Zero-Trust Environment Security (Extra 3)
+
+- [ ]  Credential hygiene principles — why raw strings break security
+- [ ]  python-dotenv library — loading keys via load_dotenv()
+- [ ]  Accessing variables securely using os.environ.get()
+- [ ]  Configuring .gitignore specifically to catch .env files
+- [ ]  Creating a professional .env.example team template
+- [ ]  Validating required environment variables at application startup
+
+---
+
+### 🛡️ Chapter 4 — Interactive Documentation & Deployment (Extra 4)
+
+- [ ]  FastAPI framework initialization basics
+- [ ]  Exposing background scripts as public HTTP endpoints
+- [ ]  Auto-generated documentation engines — Swagger UI (/docs) and ReDoc (/redoc)
+- [ ]  Deploying web services via cloud infrastructure providers (Railway / Render)
+- [ ]  Exposing public service URLs for rapid Recruiter / Client testing
+
+---
+
+### 🛡️ Chapter 5 — Runtime Data Schema Validation (Extra 5)
+
+- [ ]  Pydantic BaseModel setup for data parsing
+- [ ]  Type enforcement, coercion, and automatic casting
+- [ ]  Field validation guardrails — string lengths, numerical ranges, regex matching
+- [ ]  Handling incoming JSON payloads securely
+- [ ]  Pandera basics — validating tabular pandas DataFrames (Data Engineering checkpoint)
+- [ ]  Graceful handling of ValidationError exceptions
+
+---
+
+### 🛡️ Chapter 6 — Automated Contract & Integration Testing (Extra 6)
+
+- [ ]  pytest framework installation and configuration
+- [ ]  Writing assertive test cases — test_* naming conventions
+- [ ]  Testing FastAPI endpoints using TestClient
+- [ ]  Mocking external components — unittest.mock and patch
+- [ ]  Firing single-command integration tests (pytest -v)
+- [ ]  Pre-commit hook integration — running tests automatically before a Git commit
+
+---
+
+### 🛡️ Chapter 7 — Slack Operations & Fail-Safe Error Alerting (Extra 7)
+
+- [ ]  Remote agency engineering communication etiquette (Threads, Slack Markdown)
+- [ ]  The danger of silent script death in production automation
+- [ ]  Slack App creation basics via the Slack Developer Console
+- [ ]  Generating and managing Slack Incoming Webhook URLs
+- [ ]  Constructing automated payload alert blocks with tracebacks and error messages
+- [ ]  Slack Block Kit Builder for designing rich, structured diagnostic reports
+- [ ]  Slack Bolt Framework basics — handling custom Slash commands (e.g., /run-scraper)
+
+---
+
+### 🛡️ Chapter 8 — Low-Latency In-Memory Caching (Extra 8)
+
+- [ ]  Caching principles — reducing infrastructure costs and heavy query latency
+- [ ]  Cachetools library — TTL (Time-To-Live) and LRU (Least Recently Used) caching
+- [ ]  Redis database fundamentals — key-value store architectures
+- [ ]  Connecting Python scripts to a Redis instance via redis-py
+- [ ]  Wrapping repetitive, expensive database lookups or external API requests in cache layers
+
+---
+
+
 ## 📙 PART 3 — The Bridge
 
-> **Goal:** Connect your Python skills to the real world.
- 
+> **Goal:** Connect your Python skills to the real world. 
 
 ---
 
