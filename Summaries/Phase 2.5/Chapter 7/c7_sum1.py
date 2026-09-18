@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - Remote agency engineering communication etiquette
+Chapter7, topic - Remote agency engineering communication etiquette
                   (Threads, Slack Markdown)
 '''
 # =====================================================================

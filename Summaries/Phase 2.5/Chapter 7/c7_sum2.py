@@ -1,5 +1,5 @@
 '''
-Chapter6, topic - The danger of silent script death in production automation
+Chapter7, topic - The danger of silent script death in production automation
 '''
 # =====================================================================
 # 🧠 SILENT SCRIPT DEATH: THE PRODUCTION AUTOMATION NIGHTMARE
