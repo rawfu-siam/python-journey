@@ -217,6 +217,16 @@
 
 ---
 
+### 🛡️ Chapter 9 — High-Velocity Guardrails & CI/CD Pipelines (Extra 9)
+
+- [ ]  uv library setup — lightning-fast package resolution replacing traditional slow pip operations
+- [ ]  Ruff framework execution — executing rapid static checking and automated PEP8 corporate style formatting
+- [ ]  Bandit analyzer — running AST (Abstract Syntax Tree) scans to catch codebase injection flaws and loose dependencies
+- [ ]  Automated Pre-Commit hooks — constructing a local .pre-commit-config.yaml matrix to block broken or unvetted git commits
+- [ ]  Tenacity integration — wrapping flaky network requests or scrapers in self-healing exponential backoff decorators
+- [ ]  GitHub Actions CI/CD workflows — building a .github/workflows/ci.yml pipeline to auto-test and badge code on every push
+
+---
 
 ## 📙 PART 3 — The Bridge
 
@@ -366,3 +376,131 @@
 - [ ]  `writing client proposals and project briefs`
 - [ ]  `delivering projects professionally`
 
+---
+
+## 📕 PHASE 4 — Specialization
+
+> **Goal:** Become an AI Automation specialist.
+
+---
+
+### 🤖 Chapter 1 — OpenAI API & Prompt Engineering
+
+- [ ]  `OpenAI API setup and authentication`
+- [ ]  `GPT models — GPT-4o, GPT-4-turbo, GPT-3.5`
+- [ ]  `chat completions — messages, roles, system prompts`
+- [ ]  `temperature, max_tokens, top_p parameters`
+- [ ]  `prompt engineering principles`
+- [ ]  `few-shot prompting`
+- [ ]  `chain of thought prompting`
+- [ ]  `structured output — JSON mode`
+- [ ]  `function calling in OpenAI`
+- [ ]  `managing API costs and token usage`
+- [ ]  `streaming responses`
+
+---
+
+### 🤖 Chapter 2 — LangChain Fundamentals
+
+- [ ]  `what is LangChain and why it exists`
+- [ ]  `LLMs and Chat Models in LangChain`
+- [ ]  `prompt templates — PromptTemplate, ChatPromptTemplate`
+- [ ]  `chains — LLMChain, SequentialChain`
+- [ ]  `LangChain Expression Language (LCEL)`
+- [ ]  `output parsers`
+- [ ]  `document loaders — PDF, CSV, web pages`
+- [ ]  `text splitters — chunking strategies`
+- [ ]  `embeddings — OpenAI, HuggingFace`
+- [ ]  `vector stores — ChromaDB, FAISS`
+- [ ]  `retrievers and similarity search`
+- [ ]  `memory — ConversationBufferMemory, SummaryMemory`
+
+---
+
+### 🤖 Chapter 3 — LangChain Advanced — Agents & Tools
+
+- [ ]  `what are AI agents`
+- [ ]  `LangChain tools — built-in and custom`
+- [ ]  `ReAct agent pattern`
+- [ ]  `building custom tools for agents`
+- [ ]  `agent executors`
+- [ ]  `tool calling and function routing`
+- [ ]  `web search tool — Tavily, SerpAPI`
+- [ ]  `code execution tools`
+- [ ]  `agents with memory`
+- [ ]  `LangSmith — debugging and monitoring agents`
+- [ ]  `LangServe — deploying LangChain as an API`
+
+---
+
+### 🤖 Chapter 4 — CrewAI — Multi-Agent Systems
+
+- [ ]  `what are multi-agent systems`
+- [ ]  `CrewAI installation and architecture`
+- [ ]  `agents — role, goal, backstory, tools`
+- [ ]  `tasks — description, expected output, agent assignment`
+- [ ]  `crew — process types (sequential, hierarchical)`
+- [ ]  `custom tools for CrewAI agents`
+- [ ]  `agent collaboration and delegation`
+- [ ]  `human-in-the-loop workflows`
+- [ ]  `CrewAI with LangChain tools`
+- [ ]  `output handling and parsing crew results`
+- [ ]  `CrewAI flows — event-driven agent pipelines`
+
+---
+
+### 🤖 Chapter 5 — RAG Systems & Vector Databases
+
+- [ ]  `RAG architecture — deep understanding`
+- [ ]  `chunking strategies — size, overlap, semantic`
+- [ ]  `embedding models comparison`
+- [ ]  `Pinecone — cloud vector database`
+- [ ]  `ChromaDB — local vector database`
+- [ ]  `Weaviate basics`
+- [ ]  `hybrid search — keyword + semantic`
+- [ ]  `reranking results`
+- [ ]  `advanced retrieval strategies`
+- [ ]  `RAG evaluation — precision, recall`
+- [ ]  `building production RAG pipelines`
+
+---
+
+### 🤖 Chapter 6 — AI Automation Pipelines
+
+- [ ]  `connecting AI agents to n8n workflows`
+- [ ]  `AI-powered email processing and routing`
+- [ ]  `document processing automation with AI`
+- [ ]  `AI-powered data extraction from unstructured text`
+- [ ]  `voice AI — Whisper for transcription`
+- [ ]  `image analysis — GPT-4 Vision`
+- [ ]  `AI-powered web scraping and summarization`
+- [ ]  `trigger-based AI workflows`
+- [ ]  `AI agents with database memory`
+- [ ]  `monitoring and logging AI pipelines`
+
+---
+
+### 🤖 Chapter 7 — Building AI Products (Full Stack AI)
+
+- [ ]  `AI product architecture — backend + frontend + AI`
+- [ ]  `FastAPI + LangChain integration`
+- [ ]  `streaming AI responses to frontend`
+- [ ]  `user authentication for AI apps — JWT`
+- [ ]  `rate limiting AI endpoints`
+- [ ]  `usage tracking and billing logic`
+- [ ]  `deploying AI apps — Railway, Render, AWS`
+- [ ]  `cost optimization — caching, batching`
+- [ ]  `AI product pricing models`
+- [ ]  `building a waitlist and onboarding flow`
+
+### 🤖 Chapter 8 — LangGraph & Stateful Multi-Agent Orchestration
+
+- [ ]  `what is LangGraph and when to use it over CrewAI`
+- [ ]  `State Graphs — nodes, edges, and conditional edges`
+- [ ]  `State management — defining and updating the overall GraphState`
+- [ ]  `Conditional routing — writing deterministic Python router logic`
+- [ ]  `State persistence — implementing memory checkpoints and threads`
+- [ ]  `Human-in-the-Loop (HITL) — interrupting graph execution for webhooks`
+- [ ]  `Streaming states — monitoring token chunks and node transitions live`
+- [ ]  `Sub-graphs — nestable graph architectures for complex workflows`
+- [ ]  `Error handling and self-healing loops inside graph nodes`
